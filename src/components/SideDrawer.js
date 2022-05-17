@@ -4,14 +4,30 @@ import {Drawer, List, ListItem}from '@material-ui/core';
 
 const SideDrawer = (props) =>{
 
+    const links = [
+
+        {where: 'featured', value: 'To Top'},
+        {where: 'venuenfo', value: 'Venue NFO'},
+        {where: 'highlights', value: 'Highlights'},
+        {where: 'pricing', value:'Pricing'},
+        {where: 'location', value: 'Location'}
+    
+    ]
+
+    const renderItem = (item) =>{
+
+           return(
+        <ListItem button onClick ={()=>alert(item.where)} key={item.where}> 
+           {item.value}
+        </ListItem>
+           )
+    }
     return(
 
 
         <Drawer anchor="right" open={props.open} onClick = {()=>props.onClose(false)}>
          <List component = "nav">
-          <ListItem button onClick ={()=>alert('click')}> 
-             Name of Item
-          </ListItem>
+            {links.map((item)=> renderItem(item))}
          </List>
            
         </Drawer>
