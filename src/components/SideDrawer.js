@@ -20,7 +20,8 @@ const SideDrawer = (props) =>{
         <ListItem button onClick ={()=>alert(item.where)} key={item.where}> 
            {item.value}
         </ListItem>
-           )
+           
+      )
     }
     return(
 
