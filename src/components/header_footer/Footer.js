@@ -4,7 +4,7 @@ import {Fade}  from 'react-awesome-reveal';
 const Footer = () => {
   return (
   <footer className="bck_red">
-    <Fade>
+    <Fade triggerOnce delay={500}>
       <div className="font_heighteous footer_logo_venue">The Venue</div>
       <div className="footer_copyright">The Venue 2022 all rights reserved</div>
     </Fade>
