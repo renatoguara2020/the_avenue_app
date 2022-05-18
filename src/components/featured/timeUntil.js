@@ -44,7 +44,7 @@ const TimeUntil = () => {
 
 
     useEffect(()=>{
-        setInterval(()=> getTimeUntil('Jun, 10, 2022, 01:20:00'),1000)
+        setInterval(()=> getTimeUntil('Jun, 18, 2022, 01:20:00'),1000)
     },[getTimeUntil])
 
 
