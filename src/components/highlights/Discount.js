@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Fade, Slide} from 'react-awesome-reveal';
+import MyButton from '../utils/MyButton';
 
 
 const Discount = () =>{
@@ -42,7 +43,7 @@ const Discount = () =>{
 
        }}>
         <div className="discount_porcentage">
-        <span>{start}</span>
+        <span>{start}%</span>
         <span>OFF</span>
         </div>
        </Fade>
@@ -53,7 +54,7 @@ const Discount = () =>{
          <p>
          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
          </p>
-         
+         <MyButton text= "Purchase tickets" link= "http://google.com"/>
          </div>
        </Slide>
       

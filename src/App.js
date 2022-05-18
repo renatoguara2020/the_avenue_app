@@ -5,6 +5,7 @@ import Footer from './components/header_footer/Footer';
 import Featured from './components/featured';
 import VenueNfo from './components/venueNfo';
 import Highlights from './components/highlights';
+import Pricing from './components/pricing';
 import {Fragment}  from 'react';
 const  App = () => {
   return (
@@ -23,10 +24,15 @@ const  App = () => {
        <Fragment> 
          <Highlights/>
        </Fragment>
-        <div style={{backgroundColor:'red', height:'800px'}}></div>
+         
+       <fragment>
+          <Pricing />
+       </fragment>
+        {/*<div style={{backgroundColor:'red', height:'800px'}}></div>
         <div style={{backgroundColor:'blue', height:'800px'}}></div>
         <div style={{backgroundColor:'green', height:'800px'}}></div>
         <div style={{backgroundColor:'yellow', height:'800px'}}></div>
+                                                                      */}
         <Footer />
     </div>
   );
