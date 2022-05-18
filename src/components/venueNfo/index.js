@@ -10,7 +10,7 @@ const VenueNfo = () => {
             <div className="center_wrapper">
                 <div className="vn_wrapper">
 
-                    <Zoom className="vn_item" triggerOnce>
+                    <Zoom className="vn_item" >
                         <div>
                             <div className="vn_outer">
                                 <div className="vn_inner">
@@ -25,7 +25,7 @@ const VenueNfo = () => {
                                         Event Date & Time
                                     </div>
                                     <div className="vn_desc">
-                                        Dec 20 @01:20:00pm
+                                        December 20 @01:20:00pm
                                     </div>
 
                                 </div>
