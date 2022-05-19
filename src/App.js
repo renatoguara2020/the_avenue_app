@@ -6,6 +6,7 @@ import Featured from './components/featured';
 import VenueNfo from './components/venueNfo';
 import Highlights from './components/highlights';
 import Pricing from './components/pricing';
+import Location from './components/location';
 import {Fragment}  from 'react';
 const  App = () => {
   return (
@@ -28,11 +29,10 @@ const  App = () => {
        <Fragment>
           <Pricing />
        </Fragment>
-        {/*<div style={{backgroundColor:'red', height:'800px'}}></div>
-        <div style={{backgroundColor:'blue', height:'800px'}}></div>
-        <div style={{backgroundColor:'green', height:'800px'}}></div>
-        <div style={{backgroundColor:'yellow', height:'800px'}}></div>
-        */}
+        
+       <Fragment>
+       <Location />
+       </Fragment>
         <Footer />
     </div>
   );
