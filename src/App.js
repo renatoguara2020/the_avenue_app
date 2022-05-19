@@ -15,23 +15,23 @@ const  App = () => {
     <div className="App">
        
        <Header />
-       <Element>
+       <Element name="featured">
        <Featured/>
        </Element>
 
-       <Element>
+       <Element name="venuenfo">
         <VenueNfo />
        </Element>
 
-       <Element> 
+       <Element name="highlights"> 
          <Highlights/>
        </Element>
          
-       <Element>
+       <Element name="pricing">
           <Pricing />
        </Element>
         
-       <Element>
+       <Element name="location">
        <Location />
        </Element>
         <Footer />
