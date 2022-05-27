@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/renatoguara2020/the_avenue_app/static/css/main.1e0dd4a3.css",
+    "main.js": "/renatoguara2020/the_avenue_app/static/js/main.d388eeac.js",
+    "static/media/slide_one.jpg": "/renatoguara2020/the_avenue_app/static/media/slide_one.c0549cdcaaa5a3cfc99a.jpg",
+    "static/media/slide_three.jpg": "/renatoguara2020/the_avenue_app/static/media/slide_three.8958803436ecc3409fdb.jpg",
+    "static/media/slide_two.jpg": "/renatoguara2020/the_avenue_app/static/media/slide_two.13a6beb965b95b59cf5f.jpg",
+    "static/media/slick.svg": "/renatoguara2020/the_avenue_app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/renatoguara2020/the_avenue_app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/renatoguara2020/the_avenue_app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/renatoguara2020/the_avenue_app/index.html",
+    "static/media/slick.woff": "/renatoguara2020/the_avenue_app/static/media/slick.295183786cd8a1389865.woff",
+    "main.1e0dd4a3.css.map": "/renatoguara2020/the_avenue_app/static/css/main.1e0dd4a3.css.map",
+    "main.d388eeac.js.map": "/renatoguara2020/the_avenue_app/static/js/main.d388eeac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e0dd4a3.css",
+    "static/js/main.d388eeac.js"
+  ]
+}
